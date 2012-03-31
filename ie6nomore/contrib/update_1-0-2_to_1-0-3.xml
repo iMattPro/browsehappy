@@ -6,7 +6,7 @@
 	<header>
 		<license>http://opensource.org/licenses/gpl-license.php GNU General Public License v2</license>
 		
-		<title lang="en">IE6 No More (Swedish Language)</title>
+		<title lang="en">IE6 No More (Upgrade from v1.0.2 to v1.0.3)</title>
 		
 		<description lang="en">Displays the IE6 No More banner on your forum's index page, to encourage users of Internet Explorer 6 to upgrade to a modern browser. This banner is visible only to IE6 users.</description>
 		
@@ -30,18 +30,43 @@
 			<target-version>3.0.6</target-version>
 		</installation>
 
+		<history>
+			<entry>
+				<date>2010-02-04</date>
+				<rev-version>1.0.3</rev-version>
+				<changelog lang="en">
+					<change>Added support for Slovak language.</change>
+					<change>Fixed spelling errors in Spanish language file.</change>
+					<change>Updated install files to ModX 1.2.3.</change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2009-08-12</date>
+				<rev-version>1.0.2</rev-version>
+				<changelog lang="en">
+					<change>Added support for several languages (English, Spanish, French, Dutch, Italian, Swedish, Portuguese, Japanese).</change>
+					<change>Added Opera to the list of browser choices.</change>
+					<change>All graphics are now included in this mod so it's no longer dependent on downloading anything from the ie6nomore.com site.</change>
+					<change>Optimized code to follow rules for strict XHTML.</change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2009-08-09</date>
+				<rev-version>1.0</rev-version>
+				<changelog lang="en">
+					<change>Completed MODX Install File</change>
+				</changelog>
+			</entry>
+		</history>
+
 		<link-group>
 			<link type="parent" href="../install.xml" lang="en">Main install file</link>
-			<link type="template" href="subsilver2.xml" lang="en">subsilver2</link>
 		</link-group>
 	</header>
 	
 	<action-group>
-		<copy>
-			<file from="root/language/sv/mods/ie6_no_more.php" to="language/sv/mods/ie6_no_more.php"></file>
-		</copy>
-		
-		<diy-instructions lang="en">Refer to the main install file</diy-instructions>
+		<diy-instructions lang="en">If you are using the Spanish language version, replace language/es/mods/ie6_no_more.php
+Slovak language file added to this installer package in language/sk/mods/ie6_no_more.php.</diy-instructions>
 		
 	</action-group>
 </mod>

@@ -4,7 +4,7 @@
 * ie6_no_more [Spanish]
 *
 * @package language
-* @version $Id: ie6_no_more.php,v 1.0.2 2009/08/11 22:26:52 VSE Exp $
+* @version $Id: ie6_no_more.php 2 2010/02/04 19:14:52 VSE Exp $
 * @copyright (c) 2009 Matt Friedman 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
     'IE6NOMORE_TITLE'		=> 'Usted está usando un navegador obsoleto.',
-    'IE6NOMORE_MESSAGE'		=> 'ra navegar mejor por este sitio, por favor, actualice su navegador.',
+    'IE6NOMORE_MESSAGE'		=> 'Para navegar mejor por este sitio, por favor, actualice su navegador.',
     'IE6NOMORE_WARNING'		=> '¡Aviso!',
     'IE6NOMORE_CLOSE' 		=> 'Cierra este aviso',
     'IE6NOMORE_FIREFOX'		=> 'http://www.mozilla-europe.org/es/firefox/',

@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* ie6_no_more [Portuguese]
+* ie6_no_more [Slovak]
 *
 * @package language
 * @version $Id: ie6_no_more.php 1 2009/08/11 22:26:52 VSE Exp $
@@ -36,20 +36,20 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-    'IE6NOMORE_TITLE'		=> 'Você está usando um navegador desatualizado',
-    'IE6NOMORE_MESSAGE'		=> 'Para navegar melhor neste site, por favor, atualize seu navegador.',
-    'IE6NOMORE_WARNING'		=> 'AVISO!',
-    'IE6NOMORE_CLOSE' 		=> 'Feche esta observação',
-    'IE6NOMORE_FIREFOX'		=> 'http://pt-br.www.mozilla.com/pt-BR/',
-    'IE6NOMORE_IE'   		=> 'http://www.microsoft.com/downloads/details.aspx?FamilyID=341c2ad5-8c3d-4347-8c03-08cdecd8852b&DisplayLang=pt-br',
-	'IE6NOMORE_SAFARI' 		=> 'http://www.apple.com/br/safari/download/',	
-    'IE6NOMORE_CHROME' 		=> 'http://www.google.com/chrome?hl=pt-BR',
+    'IE6NOMORE_TITLE'		=> 'Používate zastaralý prehliadač',
+    'IE6NOMORE_MESSAGE'		=> 'Pre lepšie zobrazenie tohto webu, môžete prejsť na moderný webový prehliadač.',
+    'IE6NOMORE_WARNING'		=> 'Výstraha!',
+    'IE6NOMORE_CLOSE' 		=> 'Zavrieť toto oznámenie',
+    'IE6NOMORE_FIREFOX'		=> 'http://www.mozilla-europe.org/sk/',
+    'IE6NOMORE_IE'   		=> 'http://www.microsoft.com/slovakia/windows/internet-explorer/default.aspx',
+	'IE6NOMORE_SAFARI' 		=> 'http://www.apple.com/safari/download/',	
+    'IE6NOMORE_CHROME' 		=> 'http://www.google.com/chrome?hl=sk',
     'IE6NOMORE_OPERA' 		=> 'http://www.opera.com/browser/download/',
-    'IE6NOMORE_FIREFOX_ALT'		=> 'Começ Firefox 3.5',
-    'IE6NOMORE_IE_ALT'   		=> 'Começ Internet Explorer 8',
-	'IE6NOMORE_SAFARI_ALT' 		=> 'Começ Safari 4',	
-    'IE6NOMORE_CHROME_ALT' 		=> 'Começ Google Chrome',
-    'IE6NOMORE_OPERA_ALT' 		=> 'Começ Opera 9',
+    'IE6NOMORE_FIREFOX_ALT'		=> 'Stiahnúť Firefox 3.5',
+    'IE6NOMORE_IE_ALT'   		=> 'Stiahnúť Internet Explorer 8',
+	'IE6NOMORE_SAFARI_ALT' 		=> 'Stiahnúť Safari 4',	
+    'IE6NOMORE_CHROME_ALT' 		=> 'Stiahnúť Google Chrome',
+    'IE6NOMORE_OPERA_ALT' 		=> 'Stiahnúť Opera 9',
 ));
 
 ?>

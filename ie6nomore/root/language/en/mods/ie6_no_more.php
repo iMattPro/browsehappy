@@ -4,7 +4,7 @@
 * ie6_no_more [English]
 *
 * @package language
-* @version $Id: ie6_no_more.php,v 1.0.2 2009/08/11 22:26:52 VSE Exp $
+* @version $Id: ie6_no_more.php 1 2009/08/11 22:26:52 VSE Exp $
 * @copyright (c) 2009 Matt Friedman 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

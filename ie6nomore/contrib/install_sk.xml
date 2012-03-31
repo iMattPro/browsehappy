@@ -6,7 +6,7 @@
 	<header>
 		<license>http://opensource.org/licenses/gpl-license.php GNU General Public License v2</license>
 		
-		<title lang="en">IE6 No More (Swedish Language)</title>
+		<title lang="en">IE6 No More (Slovak Language)</title>
 		
 		<description lang="en">Displays the IE6 No More banner on your forum's index page, to encourage users of Internet Explorer 6 to upgrade to a modern browser. This banner is visible only to IE6 users.</description>
 		
@@ -38,7 +38,7 @@
 	
 	<action-group>
 		<copy>
-			<file from="root/language/sv/mods/ie6_no_more.php" to="language/sv/mods/ie6_no_more.php"></file>
+			<file from="root/language/sk/mods/ie6_no_more.php" to="language/sk/mods/ie6_no_more.php"></file>
 		</copy>
 		
 		<diy-instructions lang="en">Refer to the main install file</diy-instructions>
