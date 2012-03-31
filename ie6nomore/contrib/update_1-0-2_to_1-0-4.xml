@@ -95,12 +95,7 @@
 				<action type="replace-with"><![CDATA[<!-- INCLUDE ie6_no_more.html -->]]></action>
 			</edit>
 		</open>
-		<diy-instructions lang="en"><![CDATA[If you are using the Spanish language version, replace language/es/mods/ie6_no_more.php
-Slovak language file added to this installer package in language/sk/mods/ie6_no_more.php.
-Czech language file added to this installer package in language/cs/mods/ie6_no_more.php.
-German language file added to this installer package in language/de/mods/ie6_no_more.php.
-
-Go to Admin Control Panel -> Styles and refresh your style Templates and Themes. 
+		<diy-instructions lang="en"><![CDATA[Go to Admin Control Panel -> Styles and refresh your style Templates and Themes. 
 		
 Remember this mod will only be visible to users with IE6.
 You can check your installation using a virtual version of IE6 at http://www.xenocode.com/Browsers/]]></diy-instructions>
