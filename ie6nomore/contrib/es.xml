@@ -6,9 +6,9 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[IE6 No More (subsilver2 instructions)]]></title>
-		<description lang="en"><![CDATA[Displays the IE6 No More banner on your forum's index page, for subsilver2 themes.]]></description>
-		<author-notes lang="en"><![CDATA[From www.ie6nomore.com, a group of people who want to see IE 6 disappear as soon as possible. To help make that happen, they're encouraging IE 6 users to upgrade to a more modern browser, so they can have a better experience using sites and browsing the web.]]></author-notes>
+		<title lang="en"><![CDATA[IE6 No More (Spanish Language)]]></title>
+		<description lang="en"><![CDATA[Displays the IE6 No More banner on your forum's index page, to encourage users of Internet Explorer 6 to upgrade to a modern browser. This banner is visible only to IE6 users.]]></description>
+		<author-notes lang="en"><![CDATA[From http://www.ie6nomore.com, a group of people who want to see IE 6 disappear as soon as possible. To help make that happen, they're encouraging IE 6 users to upgrade to a more modern browser, so they can have a better experience using sites and browsing the web.]]></author-notes>
 		<author-group>
 			<author>
 				<realname><![CDATA[Matt Friedman]]></realname>
@@ -22,7 +22,7 @@
 		<mod-version>1.0.4</mod-version>
 		<installation>
 			<level>easy</level>
-			<time>180</time>
+			<time>60</time>
 			<target-version>3.0.10</target-version>
 		</installation>
 		<link-group>
@@ -31,14 +31,8 @@
 	</header>
 	<action-group>
 		<copy>
-			<file from="root/styles/subsilver2/template/ie6_no_more.html" to="styles/subsilver2/template/ie6_no_more.html"/>
-			<file from="root/styles/subsilver2/theme/images/ie6nomore/*.*" to="styles/subsilver2/theme/images/ie6nomore/*.*"/>
+			<file from="root/language/es/mods/ie6_no_more.php" to="language/es/mods/ie6_no_more.php"/>
 		</copy>
-		<open src="styles/subsilver2/template/index_body.html">
-			<edit>
-				<find><![CDATA[<!-- INCLUDE overall_header.html -->]]></find>
-				<action type="after-add"><![CDATA[<!-- INCLUDE ie6_no_more.html -->]]></action>
-			</edit>
-		</open>
+		<diy-instructions lang="en"><![CDATA[Refer to the main install file]]></diy-instructions>
 	</action-group>
 </mod>

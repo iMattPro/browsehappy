@@ -4,9 +4,8 @@
 * ie6_no_more [Swedish]
 *
 * @package language
-* @version $Id: ie6_no_more.php 1 2009/08/11 22:26:52 VSE Exp $
 * @copyright (c) 2009 Matt Friedman 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -36,20 +35,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-    'IE6NOMORE_TITLE'		=> 'Du använder en föråldrad webbläsare',
-    'IE6NOMORE_MESSAGE'		=> 'För en bättre upplevelse på denna webbplats, vänligen byt till en modern webbläsare.',
-    'IE6NOMORE_WARNING'		=> 'Varning!',
-    'IE6NOMORE_CLOSE' 		=> 'Nära den här meddelande',
-    'IE6NOMORE_FIREFOX'		=> 'http://sv-se.www.mozilla.com/sv-SE/',
-    'IE6NOMORE_IE'   		=> 'ttp://www.microsoft.com/downloads/details.aspx?FamilyID=341c2ad5-8c3d-4347-8c03-08cdecd8852b&DisplayLang=sv-SE',
-	'IE6NOMORE_SAFARI' 		=> 'http://www.apple.com/se/safari/download/',	
-    'IE6NOMORE_CHROME' 		=> 'http://www.google.com/chrome?hl=sv-SE',
-    'IE6NOMORE_OPERA' 		=> 'http://www.opera.com/browser/download/',
-    'IE6NOMORE_FIREFOX_ALT'		=> 'Få Firefox 3.5',
-    'IE6NOMORE_IE_ALT'   		=> 'Få Internet Explorer 8',
-	'IE6NOMORE_SAFARI_ALT' 		=> 'Få Safari 4',	
-    'IE6NOMORE_CHROME_ALT' 		=> 'Få Google Chrome',
-    'IE6NOMORE_OPERA_ALT' 		=> 'Få Opera 9',
+	'IE6NOMORE_TITLE'		=> 'Du använder en föråldrad webbläsare',
+	'IE6NOMORE_MESSAGE1'	=> 'För en bättre upplevelse på denna webbplats, vänligen byt till en modern webbläsare, eller',
+	'IE6NOMORE_MESSAGE2'	=> 'du installera Google Chrome Frame',
+	'IE6NOMORE_MESSAGE3'	=> 'Vänligen byt till en modern webbläsare',
+	'IE6NOMORE_WARNING'		=> 'Varning!',
 ));
 
 ?>

@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* ie6_no_more [Slovak]
+* ie6_no_more [Czech]
 *
 * @package language
 * @copyright (c) 2009 Matt Friedman 
@@ -35,11 +35,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'IE6NOMORE_TITLE'		=> 'Používate zastaralý prehliadač',
-	'IE6NOMORE_MESSAGE1'	=> 'Pre lepšie zobrazenie tohto webu, môžete prejsť na moderný webový prehliadač, alebo',
-	'IE6NOMORE_MESSAGE2'	=> 'nainštalujte Google Chrome Frame',
-	'IE6NOMORE_MESSAGE3'	=> 'Môžete prejsť na moderný webový prehliadač',
-	'IE6NOMORE_WARNING'		=> 'Výstraha!',
+	'IE6NOMORE_TITLE'		=> 'Používáte zastaralý prohlížeč',
+	'IE6NOMORE_MESSAGE1'	=> 'Pro lepší zobrazení tohoto webu, můžete přejít na moderní webový prohlížeč, nebo',
+	'IE6NOMORE_MESSAGE2'	=> 'instalace Google Chrome Frame',
+	'IE6NOMORE_MESSAGE3'	=> 'Můžete přejít na moderní webový prohlížeč',
+	'IE6NOMORE_WARNING'		=> 'Varování!',
 ));
 
 ?>
