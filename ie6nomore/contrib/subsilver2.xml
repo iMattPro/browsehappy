@@ -6,7 +6,7 @@
 	<header>
 		<license>http://opensource.org/licenses/gpl-license.php GNU General Public License v2</license>
 
-		<title lang="en">IE6 No More</title>
+		<title lang="en">IE6 No More (subsilver2 instructions)</title>
 		
 		<description lang="en">Displays the IE6 No More banner on your forum's index page, for subsilver2 themes.</description>
 		
@@ -22,11 +22,11 @@
 			</author>
 		</author-group>
 		
-		<mod-version>1.0.0</mod-version>
+		<mod-version>1.0.2</mod-version>
 		
 		<installation>
 			<level>easy</level>
-			<time>60</time>
+			<time>180</time>
 			<target-version>3.0.5</target-version>
 		</installation>
 
@@ -36,6 +36,9 @@
 	</header>
 
 	<action-group>
+		<copy>
+			<file from="root/styles/subsilver2/theme/images/ie6nomore/*.*" to="styles/subsilver2/theme/images/ie6nomore/*.*" />
+		</copy>
 		<open src="styles/subsilver2/template/index_body.html">
 			<edit>
 				<find><![CDATA[<!-- INCLUDE overall_header.html -->]]></find>
@@ -43,25 +46,27 @@
 
   <!--[if lt IE 7]>
   <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>
-    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>
-    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
-      <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>
+    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='{T_THEME_PATH}/images/ie6nomore/ie6nomore-cornerx.jpg' style='border: none;' alt='{L_IE6NOMORE_CLOSE}' /></a></div>
+    <div style='width: 713px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+      <div style='width: 75px; float: left;'><img src='{T_THEME_PATH}/images/ie6nomore/ie6nomore-warning.jpg' alt='{L_IE6NOMORE_WARNING}' /></div>
       <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>
-        <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>You are using an outdated browser</div>
-        <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>For a better experience using this site, please upgrade to a modern web browser.</div>
+        <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>{L_IE6NOMORE_TITLE}</div>
+        <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>{L_IE6NOMORE_MESSAGE}</div>
       </div>
-      <div style='width: 75px; float: left;'><a href='http://www.firefox.com' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>
-      <div style='width: 75px; float: left;'><a href='http://www.browserforthebetter.com/download.html' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>
-      <div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>
-      <div style='float: left;'><a href='http://www.google.com/chrome' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>
+      <div style='width: 75px; float: left;'><a href='{L_IE6NOMORE_FIREFOX}'><img src='{T_THEME_PATH}/images/ie6nomore/ie6nomore-firefox.jpg' style='border: none;' alt='{L_IE6NOMORE_FIREFOX_ALT}' /></a></div>
+      <div style='width: 75px; float: left;'><a href='{L_IE6NOMORE_IE}'><img src='{T_THEME_PATH}/images/ie6nomore/ie6nomore-ie8.jpg' style='border: none;' alt='{L_IE6NOMORE_IE_ALT}' /></a></div>
+      <div style='width: 73px; float: left;'><a href='{L_IE6NOMORE_SAFARI}'><img src='{T_THEME_PATH}/images/ie6nomore/ie6nomore-safari.jpg' style='border: none;' alt='{L_IE6NOMORE_SAFARI_ALT}' /></a></div>
+      <div style='width: 73px; float: left;'><a href='{L_IE6NOMORE_CHROME}'><img src='{T_THEME_PATH}/images/ie6nomore/ie6nomore-chrome.jpg' style='border: none;' alt='{L_IE6NOMORE_CHROME_ALT}' /></a></div>
+      <div style='float: left;'><a href='{L_IE6NOMORE_OPERA}'><img src='{T_THEME_PATH}/images/ie6nomore/ie6nomore-opera.jpg' style='border: none;' alt='{L_IE6NOMORE_OPERA_ALT}' /></a></div>
     </div>
   </div>
   <![endif]-->
+
 ]]></action>
 			</edit>
 		</open>
 		
-		<diy-instructions lang="en">Go to Admin Control Panel and refresh your style templates</diy-instructions>
+		<diy-instructions lang="en"></diy-instructions>
 		
 	</action-group>
 </mod>
