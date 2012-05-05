@@ -31,7 +31,7 @@
 	</header>
 	<action-group>
 		<copy>
-			<file from="root/language/cs/mods/ie6_no_more.php" to="language/es/mods/ie6_no_more.php"/>
+			<file from="root/language/cs/mods/ie6_no_more.php" to="language/cs/mods/ie6_no_more.php"/>
 		</copy>
 		<diy-instructions lang="en"><![CDATA[Refer to the main install file]]></diy-instructions>
 	</action-group>
