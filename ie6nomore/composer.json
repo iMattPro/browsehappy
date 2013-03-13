@@ -1,0 +1,23 @@
+{
+    "name": "vse/ie6nomore",
+    "type": "phpbb3-extension",
+    "description": "An extension for phpBB 3.1 that displays the IE6 No More banner on your forum's index page, to encourage users of Internet Explorer 6 to upgrade to a modern browser. This banner is visible only to IE6 users.",
+    "homepage": "http://www.phpbb.com/customise/db/mod/ie6_no_more/",
+    "version": "1.1.0b1",
+    "time": "2013-03-11",
+    "licence": "GPLv2",
+    "authors": [
+        {
+            "name": "Matt Friedman",
+            "username": "VSE",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "phpbb": "3.1.0-dev",
+        "php": "5.3.0"
+    },
+    "extra": {
+        "display-name": "IE6 No More"
+    }
+}
