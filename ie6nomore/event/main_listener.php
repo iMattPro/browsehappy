@@ -38,7 +38,7 @@ class phpbb_ext_vse_ie6nomore_event_main_listener implements EventSubscriberInte
 		$user->add_lang_ext('vse/ie6nomore', 'ie6nomore');
 
 		$template->assign_vars(array(
-			'U_IMAGEPATH'		=> $phpbb_root_path . 'ext/vse/ie6nomore/styles/all/theme',
+			'IE6NOMORE_IMAGEPATH'		=> $phpbb_root_path . 'ext/vse/ie6nomore/styles/all/theme/images',
 		));
 	}
 
