@@ -27,11 +27,11 @@ class phpbb_ext_vse_ie6nomore_event_listener implements EventSubscriberInterface
 	static public function getSubscribedEvents()
 	{
 		return array(
-			'core.index_modify_page_title'		=> 'add_ie6nomore_vars',
+			'core.index_modify_page_title'		=> 'init_ie6nomore',
 		);
 	}
 
-	public function add_ie6nomore_vars($event)
+	public function init_ie6nomore($event)
 	{
 		global $user, $template, $phpbb_root_path;
 
