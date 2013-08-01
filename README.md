@@ -1,4 +1,4 @@
-IE6 No More for phpBB 3.1
+![IE6 No More](http://orcamx.vlexofree.com/forum/images/ie6nomore.png "IE6 No More") IE6 No More for phpBB 3.1
 ==========================
 
 An extension for phpBB 3.1 that displays the IE6 No More banner on your forum's index page, to encourage users of Internet Explorer 6 to upgrade to a modern browser. This banner is visible only to IE6 users.
