@@ -6,8 +6,6 @@ An extension for phpBB 3.1 that displays the IE6 No More banner on your forum's 
 STATUS
 ------
 * To-do: Template event needed in better location on index_body.html
-* To-do: Once phpBB path bugs are fixed, move all styling into a CSS file, remove temporary path fix for images.
-
 
 Requirements
 ------------
