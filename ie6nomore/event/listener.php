@@ -7,6 +7,8 @@
 *
 */
 
+namespace vse\ie6nomore\event;
+
 /**
 * @ignore
 */
@@ -21,7 +23,7 @@ if (!defined('IN_PHPBB'))
 */
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
-class phpbb_ext_vse_ie6nomore_event_listener implements EventSubscriberInterface
+class listener implements EventSubscriberInterface
 {
 
 	static public function getSubscribedEvents()

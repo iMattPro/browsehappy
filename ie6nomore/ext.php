@@ -7,6 +7,8 @@
 *
 */
 
+namespace vse\ie6nomore;
+
 /**
 * @ignore
 */
@@ -18,6 +20,6 @@ if (!defined('IN_PHPBB'))
 /**
 * Main extension class for this extension.
 */
-class phpbb_ext_vse_ie6nomore_ext extends phpbb_extension_base
+class ext extends \phpbb\extension\base
 {
 }
