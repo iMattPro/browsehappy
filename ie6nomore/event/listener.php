@@ -9,23 +9,13 @@
 
 namespace vse\ie6nomore\event;
 
-/**
-* @ignore
-*/
-
-if (!defined('IN_PHPBB'))
-{
-    exit;
-}
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
 * Event listener
 */
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-
 class listener implements EventSubscriberInterface
 {
-
 	static public function getSubscribedEvents()
 	{
 		return array(
@@ -43,5 +33,4 @@ class listener implements EventSubscriberInterface
 			'IE6NOMORE_IMAGEPATH'		=> $phpbb_root_path . 'ext/vse/ie6nomore/styles/all/theme/images',
 		));
 	}
-
 }

@@ -10,14 +10,6 @@
 namespace vse\ie6nomore;
 
 /**
-* @ignore
-*/
-if (!defined('IN_PHPBB'))
-{
-	exit;
-}
-
-/**
 * Main extension class for this extension.
 */
 class ext extends \phpbb\extension\base
