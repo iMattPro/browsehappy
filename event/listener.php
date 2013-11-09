@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* @package IE6 No More
+* @package Browse Happy
 * @copyright (c) 2013 Matt Friedman
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
-namespace vse\ie6nomore\event;
+namespace vse\browsehappy\event;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
@@ -19,18 +19,18 @@ class listener implements EventSubscriberInterface
 	static public function getSubscribedEvents()
 	{
 		return array(
-			'core.index_modify_page_title'		=> 'init_ie6nomore',
+			'core.index_modify_page_title'		=> 'init_browsehappy',
 		);
 	}
 
-	public function init_ie6nomore($event)
+	public function init_browsehappy($event)
 	{
 		global $user, $template, $phpbb_root_path;
 
-		$user->add_lang_ext('vse/ie6nomore', 'ie6nomore');
+		$user->add_lang_ext('vse/browsehappy', 'browsehappy');
 
 		$template->assign_vars(array(
-			'IE6NOMORE_IMAGEPATH'		=> $phpbb_root_path . 'ext/vse/ie6nomore/styles/all/theme/images',
+			'BROWSEHAPPY_IMAGEPATH'		=> $phpbb_root_path . 'ext/vse/browsehappy/styles/all/theme/images',
 		));
 	}
 }

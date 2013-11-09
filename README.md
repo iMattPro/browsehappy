@@ -1,7 +1,7 @@
-![IE6 No More](http://mattfriedman.me/forum/images/ie6nomore.png "IE6 No More") IE6 No More for phpBB 3.1
+![Browse Happy](http://mattfriedman.me/forum/images/ie6nomore.png "Browse Happy") Browse Happy for phpBB 3.1
 ==========================
 
-An extension for phpBB 3.1 that displays the IE6 No More banner on your forum's index page, to encourage users of Internet Explorer 6 to upgrade to a modern browser. This banner is visible only to IE6 users.
+An extension for phpBB 3.1 that displays an Outdated Browser Banner on your forum's index page, to encourage users of Internet Explorer 6/7/8 to upgrade to a modern browser. This banner is visible only to IE 6/7/8 users.
 
 STATUS
 ------
@@ -18,7 +18,7 @@ Installation
 
 You can install this on the latest copy of the develop branch ([phpBB 3.1-dev](https://github.com/phpbb/phpbb3)) by following the steps below:
 
-1. Copy the entire contents of this repo to `phpBB/ext/vse/ie6nomore/`
+1. Copy the entire contents of this repo to `phpBB/ext/vse/browsehappy/`
 2. Navigate in the ACP to `Customise -> Extension Management -> Extensions`.
 3. Click `Enable`.
 
@@ -29,7 +29,7 @@ Uninstallation
 
 Navigate in the ACP to `Customise -> Extension Management -> Extensions` and click `Disable`.
 
-To permanently uninstall, click `Delete Data` and then you can safely delete the `/ext/vse/ie6nomore` folder.
+To permanently uninstall, click `Delete Data` and then you can safely delete the `/ext/vse/browsehappy` folder.
 
 License
 -------

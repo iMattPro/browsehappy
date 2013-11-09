@@ -1,15 +1,15 @@
 {
-    "name": "vse/ie6nomore",
+    "name": "vse/browsehappy",
     "type": "phpbb-extension",
-    "description": "An extension for phpBB 3.1 that displays the IE6 No More banner on your forum's index page, to encourage users of Internet Explorer 6 to upgrade to a modern browser. This banner is visible only to IE6 users.",
-    "homepage": "http://www.phpbb.com/customise/db/mod/ie6_no_more/",
+    "description": "An extension for phpBB 3.1 that displays an Outdated Browser Banner on your forum's index page, to encourage users of Internet Explorer 6/7/8 to upgrade to a modern browser. This banner is visible only to IE 6/7/8 users.",
+    "homepage": "https://github.com/VSEphpbb/browsehappy",
     "version": "1.1.0",
-    "time": "2013-10-04",
+    "time": "2013-11-09",
     "licence": "GPL-2.0",
     "authors": [
         {
             "name": "Matt Friedman (VSE)",
-            "homepage": "http://www.phpbb.com/customise/db/mod/ie6_no_more/",
+            "homepage": "http://mattfriedman.me",
             "role": "Developer"
         }
     ],
@@ -18,6 +18,6 @@
         "phpbb/phpbb": "3.1.*@dev"
     },
     "extra": {
-        "display-name": "IE6 No More"
+        "display-name": "Browse Happy"
     }
 }
