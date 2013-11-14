@@ -1,0 +1,5 @@
+services:
+    vse.browsehappy.listener:
+        class: vse\browsehappy\event\listener
+        tags:
+            - { name: event.listener }
