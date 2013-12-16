@@ -2,14 +2,10 @@
 
 An extension for phpBB 3.1 that displays an Outdated Browser Banner on your forum's index page, to encourage users of Internet Explorer 6/7/8 to upgrade to a modern browser. This banner is visible only to IE 6/7/8 users.
 
-## STATUS
-* To-do: Template event needed in better location on index_body.html
-
 ## Requirements
 * phpBB 3.1-dev or higher
 * PHP 5.3.3 or higher
 
-## Installation
 ## Installation
 You can install this on the latest copy of the develop branch ([phpBB 3.1-dev](https://github.com/phpbb/phpbb3)) by following the steps below:
 
