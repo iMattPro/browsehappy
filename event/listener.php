@@ -19,18 +19,18 @@ class listener implements EventSubscriberInterface
 	static public function getSubscribedEvents()
 	{
 		return array(
-			'core.index_modify_page_title'		=> 'init_browsehappy',
+			'core.index_modify_page_title'		=> 'show_browsehappy',
 		);
 	}
 
-	public function init_browsehappy($event)
+	public function show_browsehappy($event)
 	{
-		global $user, $template, $phpbb_root_path;
+		global $user, $template;
 
 		$user->add_lang_ext('vse/browsehappy', 'browsehappy');
 
 		$template->assign_vars(array(
-			'BROWSEHAPPY_IMAGEPATH'		=> $phpbb_root_path . 'ext/vse/browsehappy/styles/all/theme/images',
+			'S_BROWSEHAPPY' => true,
 		));
 	}
 }

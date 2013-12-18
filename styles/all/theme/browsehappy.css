@@ -1,0 +1,56 @@
+#browsehappy {
+	border: 1px solid #F7941D;
+	background: #FEEFDA;
+	text-align: center;
+	clear: both;
+	height: 75px;
+	position: relative;
+	overflow: hidden;
+	margin: 8px 0;
+}
+
+#browsehappy_inner {
+	width: 735px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 0;
+	overflow: hidden;
+	color: black;
+}
+
+#browsehappy_warning {
+	width: 53px;
+	height: 73px;
+	float: left;
+	padding-right: 22px;
+	display: block;
+	background: url("./images/browsehappy-warning.jpg") 0 0 no-repeat;
+}
+
+#browsehappy_text {
+	width: 300px;
+	float: left;
+	font-family: Arial, sans-serif;
+	margin-top: 5px;
+}
+
+#browsehappy_text p {
+	font-size: 12px;
+	margin: 5px 0 0 0;
+}
+
+#browsehappy_text p strong {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#browsehappy_icons {
+	width: 353px;
+	height: 73px;
+	float: left;
+	border: 0;
+	display: block;
+	background: url("./images/browsehappy-browsers.jpg") 0 0 no-repeat;
+	font-size: 0;
+	text-indent: -9999px;
+}
