@@ -16,6 +16,13 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 */
 class listener implements EventSubscriberInterface
 {
+	/**
+	* Assign functions defined in this class to event listeners in the core
+	*
+	* @return array
+	* @static
+	* @access public
+	*/
 	static public function getSubscribedEvents()
 	{
 		return array(
@@ -23,6 +30,12 @@ class listener implements EventSubscriberInterface
 		);
 	}
 
+	/**
+	* Show browsehappy only on the index page
+	*
+	* @return null
+	* @access public
+	*/
 	public function show_browsehappy($event)
 	{
 		global $user, $template;
