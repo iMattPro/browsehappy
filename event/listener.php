@@ -31,7 +31,7 @@ class listener implements EventSubscriberInterface
 	}
 
 	/**
-	* Show browsehappy only on the index page
+	* Show browsehappy on the index page
 	*
 	* @return null
 	* @access public
