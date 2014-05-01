@@ -42,8 +42,6 @@ class listener implements EventSubscriberInterface
 
 		$user->add_lang_ext('vse/browsehappy', 'browsehappy');
 
-		$template->assign_vars(array(
-			'S_BROWSEHAPPY' => true,
-		));
+		$template->assign_var('S_BROWSEHAPPY', true);
 	}
 }
