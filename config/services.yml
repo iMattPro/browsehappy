@@ -1,5 +1,8 @@
 services:
     vse.browsehappy.listener:
         class: vse\browsehappy\event\listener
+        arguments:
+            - @template
+            - @user
         tags:
             - { name: event.listener }

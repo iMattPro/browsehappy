@@ -16,6 +16,26 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 */
 class listener implements EventSubscriberInterface
 {
+	/** @var \phpbb\template\template */
+	protected $template;
+
+	/** @var \phpbb\user */
+	protected $user;
+
+	/**
+	* Constructor
+	*
+	* @param \phpbb\template\template $template
+	* @param \phpbb\user $user
+	* @return \vse\browsehappy\event\listener
+	* @access public
+	*/
+	public function __construct(\phpbb\template\template $template, \phpbb\user $user)
+	{
+		$this->template = $template;
+		$this->user = $user;
+	}
+
 	/**
 	* Assign functions defined in this class to event listeners in the core
 	*
@@ -38,10 +58,8 @@ class listener implements EventSubscriberInterface
 	*/
 	public function show_browsehappy($event)
 	{
-		global $user, $template;
+		$this->user->add_lang_ext('vse/browsehappy', 'browsehappy');
 
-		$user->add_lang_ext('vse/browsehappy', 'browsehappy');
-
-		$template->assign_var('S_BROWSEHAPPY', true);
+		$this->template->assign_var('S_BROWSEHAPPY', true);
 	}
 }
