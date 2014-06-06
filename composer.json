@@ -19,10 +19,10 @@
     },
     "extra": {
         "display-name": "Browse Happy",
-		"version-check": {
-			"host": "vsephpbb.github.io",
-			"directory": "/browsehappy",
-			"filename": "version.json"
-		}
+        "version-check": {
+            "host": "vsephpbb.github.io",
+            "directory": "/browsehappy",
+            "filename": "version.json"
+        }
     }
 }
