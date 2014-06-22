@@ -2,6 +2,8 @@
 
 An extension for phpBB 3.1 that displays an Outdated Browser Banner on your forum's index page, to encourage users of Internet Explorer 6/7/8 to upgrade to a modern browser. This banner is visible only to IE 6/7/8 users.
 
+[![Build Status](https://travis-ci.org/VSEphpbb/browsehappy.png)](https://travis-ci.org/VSEphpbb/browsehappy)
+
 ## Requirements
 * phpBB 3.1.0-b4 or higher
 * PHP 5.3.3 or higher
