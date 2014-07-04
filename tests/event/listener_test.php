@@ -24,8 +24,6 @@ class listener_test extends \phpbb_test_case
 	{
 		parent::setUp();
 
-		global $phpbb_dispatcher;
-
 		// Load/Mock classes required by the event listener class
 		$this->template = new \vse\browsehappy\tests\mock\template();
 		$this->user = $this->getMock('\phpbb\user');
