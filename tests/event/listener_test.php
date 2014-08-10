@@ -26,7 +26,7 @@ class listener_test extends \phpbb_test_case
 
 		// Load/Mock classes required by the event listener class
 		$this->template = new \vse\browsehappy\tests\mock\template();
-		$this->user = $this->getMock('\phpbb\user');
+		$this->user = $this->getMock('\phpbb\user', array(), array('\phpbb\datetime'));
 	}
 
 	/**
