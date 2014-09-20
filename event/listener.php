@@ -54,6 +54,7 @@ class listener implements EventSubscriberInterface
 	/**
 	* Show browsehappy on the index page
 	*
+	* @param object $event The event object
 	* @return null
 	* @access public
 	*/
