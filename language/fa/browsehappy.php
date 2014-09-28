@@ -2,8 +2,7 @@
 /**
 *
 * Browse Happy [Persian]
-* Persian Translator: Meisam nobari in www.php-bb.ir
-* @copyright (c) 2013 Matt Friedman
+* @copyright (c) 2013 Matt Friedman, (c) 2014 Meisam nobari in www.php-bb.ir
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
