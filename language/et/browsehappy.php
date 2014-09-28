@@ -2,9 +2,8 @@
 /**
 *
 * Browse Happy [Estonian]
-* Browse Happy Extensions Estonian language pack version 09/2014 by phpbbeesti.com
 *
-* @copyright (c) 2013 Matt Friedman
+* @copyright (c) 2013 Matt Friedman; Estonian language pack 09/2014 by phpbbeesti.com
 * @license GNU General Public License, version 2 (GPL-2.0)
 */
 
