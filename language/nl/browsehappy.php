@@ -23,7 +23,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'BROWSEHAPPY_TITLE'		=> 'Je gebruikt een verouderde webbrowser!',
-	'BROWSEHAPPY_MESSAGE'	=> 'Voor een betere en veiligere ervaring met deze site, kan je het beste upgraden naar een moderne browser..',
+	'BROWSEHAPPY_MESSAGE'	=> 'Voor een betere en veiligere ervaring met deze site, kan je het beste upgraden naar een moderne browser.',
 	'BROWSEHAPPY_UPGRADE'	=> 'Upgraden naar een moderne browser',
 	'BROWSEHAPPY_WARNING'	=> 'Waarschuwing!',
 ));
