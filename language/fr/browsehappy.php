@@ -22,8 +22,8 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'BROWSEHAPPY_TITLE'		=> 'Vous utilisez un navigateur dépassé depuis près de 8 ans!',
-	'BROWSEHAPPY_MESSAGE'	=> 'Pour une meilleure expérience, plus sûr utilisant ce site, prenez le temps de mettre votre navigateur à jour.',
-	'BROWSEHAPPY_UPGRADE'	=> 'Prenez le temps de mettre votre navigateur à jour',
-	'BROWSEHAPPY_WARNING'	=> 'Avertissement!',
+	'BROWSEHAPPY_TITLE'		=> 'Vous utilisez un navigateur obsolète depuis près de 8 ans !',
+	'BROWSEHAPPY_MESSAGE'	=> 'Pour une meilleure expérience et une utilisation de ce site plus sécurisée, prenez le temps de mettre à jour votre navigateur.',
+	'BROWSEHAPPY_UPGRADE'	=> 'Prendre le temps de mettre à jour votre navigateur',
+	'BROWSEHAPPY_WARNING'	=> 'Attention !',
 ));
