@@ -26,9 +26,9 @@
 			"phpbb/phpbb": ">=3.1.0-RC2,<3.2.*@dev"
 		},
 		"version-check": {
-			"host": "vsephpbb.github.io",
-			"directory": "/version",
-			"filename": "browsehappy.json"
+			"host": "www.phpbb.com",
+			"directory": "/customise/db/extension/browse_happy",
+			"filename": "version_check"
 		}
 	}
 }
