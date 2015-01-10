@@ -28,7 +28,6 @@ class listener implements EventSubscriberInterface
 	*
 	* @param \phpbb\template\template $template
 	* @param \phpbb\user $user
-	* @return \vse\browsehappy\event\listener
 	* @access public
 	*/
 	public function __construct(\phpbb\template\template $template, \phpbb\user $user)
