@@ -1,7 +1,7 @@
 {
 	"name": "vse/browsehappy",
 	"type": "phpbb-extension",
-	"description": "Displays an Outdated Browser Banner on your forum's index page (visible only to Internet Explorer 6/7/8 users), to encourage users of IE 6/7/8 to upgrade to a modern browser.",
+	"description": "Displays an Outdated Browser Banner on your forum's index page, visible only to Internet Explorer 6/7/8 users, to encourage them to upgrade to a modern browser.",
 	"homepage": "https://github.com/VSEphpbb/browsehappy",
 	"version": "2.0.1-dev",
 	"keywords": ["phpbb", "extension", "browsehappy", "internet", "explorer", "modern", "browser"],

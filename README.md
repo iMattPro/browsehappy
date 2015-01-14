@@ -1,6 +1,6 @@
 # ![Browse Happy](http://mattfriedman.me/forum/images/ie6nomore.png "Browse Happy") Browse Happy for phpBB 3.1
 
-An extension for phpBB 3.1 that displays an Outdated Browser Banner on your forum's index page (visible only to Internet Explorer 6/7/8 users), to encourage users of IE 6/7/8 to upgrade to a modern browser.
+An extension for phpBB 3.1 that displays an Outdated Browser Banner on your forum's index page, visible only to Internet Explorer 6/7/8 users, to encourage them to upgrade to a modern browser.
 
 [![Build Status](https://travis-ci.org/VSEphpbb/browsehappy.png)](https://travis-ci.org/VSEphpbb/browsehappy)
 
