@@ -1,14 +1,14 @@
-<!-- IF S_BROWSEHAPPY -->
+{% if S_BROWSEHAPPY %}
 	<!--[if lt IE 9]>
 	<div id="browsehappy">
 		<div id="browsehappy_inner">
-			<div id="browsehappy_warning" title="{L_BROWSEHAPPY_WARNING}"></div>
+			<div id="browsehappy_warning" title="{{ lang('BROWSEHAPPY_WARNING') }}"></div>
 			<div id="browsehappy_text">
-				<p><strong>{L_BROWSEHAPPY_TITLE}</strong></p>
-				<p>{L_BROWSEHAPPY_MESSAGE}</p>
+				<p><strong>{{ lang('BROWSEHAPPY_TITLE') }}</strong></p>
+				<p>{{ lang('BROWSEHAPPY_MESSAGE') }}</p>
 			</div>
-			<a id="browsehappy_icons" href="http://browsehappy.com/" title="{L_BROWSEHAPPY_UPGRADE}">{L_BROWSEHAPPY_UPGRADE}</a>
+			<a id="browsehappy_icons" href="http://browsehappy.com/" title="{{ lang('BROWSEHAPPY_UPGRADE') }}">{{ lang('BROWSEHAPPY_UPGRADE') }}</a>
 		</div>
 	</div>
 	<![endif]-->
-<!-- ENDIF -->
+{% endif %}
