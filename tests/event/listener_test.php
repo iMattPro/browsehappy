@@ -15,11 +15,6 @@ class listener_test extends \phpbb_test_case
 	/** @var \vse\browsehappy\event\listener */
 	protected $listener;
 
-	/**
-	* Setup test environment
-	*
-	* @access public
-	*/
 	public function setUp()
 	{
 		parent::setUp();
@@ -29,11 +24,6 @@ class listener_test extends \phpbb_test_case
 		$this->user = $this->getMock('\phpbb\user', array(), array('\phpbb\datetime'));
 	}
 
-	/**
-	* Create our event listener
-	*
-	* @access protected
-	*/
 	protected function set_listener()
 	{
 		$this->listener = new \vse\browsehappy\event\listener(
@@ -42,22 +32,12 @@ class listener_test extends \phpbb_test_case
 		);
 	}
 
-	/**
-	* Test the event listener is constructed correctly
-	*
-	* @access public
-	*/
 	public function test_construct()
 	{
 		$this->set_listener();
 		$this->assertInstanceOf('\Symfony\Component\EventDispatcher\EventSubscriberInterface', $this->listener);
 	}
 
-	/**
-	* Test the event listener is subscribing events
-	*
-	* @access public
-	*/
 	public function test_getSubscribedEvents()
 	{
 		$this->assertEquals(array(
@@ -65,11 +45,6 @@ class listener_test extends \phpbb_test_case
 		), array_keys(\vse\browsehappy\event\listener::getSubscribedEvents()));
 	}
 
-	/**
-	* Test the show_browsehappy event
-	*
-	* @access public
-	*/
 	public function test_show_browsehappy()
 	{
 		$this->set_listener();
