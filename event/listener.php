@@ -53,11 +53,10 @@ class listener implements EventSubscriberInterface
 	/**
 	* Show browsehappy on the index page
 	*
-	* @param object $event The event object
 	* @return null
 	* @access public
 	*/
-	public function show_browsehappy($event)
+	public function show_browsehappy()
 	{
 		$this->user->add_lang_ext('vse/browsehappy', 'browsehappy');
 
