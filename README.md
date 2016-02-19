@@ -9,7 +9,7 @@
 
 ---
 
-The Browse Happy extension helps make your phpBB forum a better place for all your visitors. It displays an Outdated Browser Banner on the forum's index page, visible only to Internet Explorer 6/7/8 users, to encourage them to upgrade to a modern browser by visiting [browsehappy.com](http://browsehappy.com).
+The Browse Happy extension helps make your phpBB forum a better place for all your visitors. It displays an Outdated Browser Banner on the forum's index page, visible only to Internet Explorer 6/7/8/9 users, to encourage them to upgrade to a modern browser by visiting [browsehappy.com](http://browsehappy.com).
 
 ## Requirements
 * phpBB 3.1.2 or higher
