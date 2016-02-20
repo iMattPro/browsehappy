@@ -1,6 +1,6 @@
 # Browse Happy - A phpBB extension
 
-<img align="right" height="256" width="256" src="http://mattfriedman.me/forum/images/nomoreie6lg.png" alt="Browse Happy">
+<img align="right" height="256" width="256" src="http://mattfriedman.me/forum/images/browsehappy-icon-lg.png" alt="Browse Happy">
 
 > It's time to say goodbye to Internet Explorer. 
 
