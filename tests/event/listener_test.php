@@ -1,12 +1,12 @@
 <?php
 /**
-*
-* Browse Happy
-*
-* @copyright (c) 2014 Matt Friedman
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Browse Happy
+ *
+ * @copyright (c) 2014 Matt Friedman
+ * @license       GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 namespace vse\browsehappy\tests\event;
 
@@ -15,7 +15,7 @@ class listener_test extends \phpbb_test_case
 	/** @var \vse\browsehappy\event\listener */
 	protected $listener;
 
-	/** @var \phpbb\template\template|\PHPUnit_Framework_MockObject_MockObject  */
+	/** @var \phpbb\template\template|\PHPUnit_Framework_MockObject_MockObject */
 	protected $template;
 
 	/** @var \phpbb\user|\PHPUnit_Framework_MockObject_MockObject */

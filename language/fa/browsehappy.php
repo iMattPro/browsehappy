@@ -1,16 +1,16 @@
 <?php
 /**
-*
-* Browse Happy [Persian]
-*
-* @copyright (c) 2013 Matt Friedman, (c) 2014 Meisam nobari in www.php-bb.ir
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Browse Happy [Persian]
+ *
+ * @copyright (c) 2013 Matt Friedman, (c) 2014 Meisam nobari in www.php-bb.ir
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;

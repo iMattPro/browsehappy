@@ -1,17 +1,17 @@
 <?php
 /**
-*
-* Browse Happy [French]
-* French translation by HTML-Edition & Galixte (http://www.galixte.com)
-*
-* @copyright (c) 2013 Matt Friedman
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Browse Happy [French]
+ * French translation by HTML-Edition & Galixte (http://www.galixte.com)
+ *
+ * @copyright (c) 2013 Matt Friedman
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;

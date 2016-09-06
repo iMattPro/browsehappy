@@ -1,20 +1,20 @@
 <?php
 /**
-*
-* Browse Happy
-*
-* @copyright (c) 2013 Matt Friedman
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Browse Happy
+ *
+ * @copyright (c) 2013 Matt Friedman
+ * @license       GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 namespace vse\browsehappy\event;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
-* Event listener
-*/
+ * Event listener
+ */
 class listener implements EventSubscriberInterface
 {
 	/** @var \phpbb\template\template */
@@ -24,12 +24,11 @@ class listener implements EventSubscriberInterface
 	protected $user;
 
 	/**
-	* Constructor
-	*
-	* @param \phpbb\template\template $template
-	* @param \phpbb\user $user
-	* @access public
-	*/
+	 * Constructor
+	 *
+	 * @param \phpbb\template\template $template
+	 * @param \phpbb\user              $user
+	 */
 	public function __construct(\phpbb\template\template $template, \phpbb\user $user)
 	{
 		$this->template = $template;
@@ -37,12 +36,10 @@ class listener implements EventSubscriberInterface
 	}
 
 	/**
-	* Assign functions defined in this class to event listeners in the core
-	*
-	* @return array
-	* @static
-	* @access public
-	*/
+	 * Assign functions defined in this class to event listeners in the core
+	 *
+	 * @return array
+	 */
 	static public function getSubscribedEvents()
 	{
 		return array(
@@ -51,11 +48,10 @@ class listener implements EventSubscriberInterface
 	}
 
 	/**
-	* Show browsehappy on the index page
-	*
-	* @return null
-	* @access public
-	*/
+	 * Show browsehappy on the index page
+	 *
+	 * @return void
+	 */
 	public function show_browsehappy()
 	{
 		$this->user->add_lang_ext('vse/browsehappy', 'browsehappy');

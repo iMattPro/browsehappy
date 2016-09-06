@@ -1,16 +1,16 @@
 <?php
 /**
-*
-* Browse Happy [Estonian]
-*
-* @copyright (c) 2013 Matt Friedman, (c) 2014 phpbbeesti.com
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Browse Happy [Estonian]
+ *
+ * @copyright (c) 2013 Matt Friedman, (c) 2014 phpbbeesti.com
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
