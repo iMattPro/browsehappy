@@ -42,12 +42,12 @@ class listener_test extends \phpbb_test_case
 	public function test_construct()
 	{
 		$this->set_listener();
-		$this->assertInstanceOf('\Symfony\Component\EventDispatcher\EventSubscriberInterface', $this->listener);
+		static::assertInstanceOf('\Symfony\Component\EventDispatcher\EventSubscriberInterface', $this->listener);
 	}
 
 	public function test_getSubscribedEvents()
 	{
-		$this->assertEquals(array(
+		static::assertEquals(array(
 			'core.index_modify_page_title',
 		), array_keys(\vse\browsehappy\event\listener::getSubscribedEvents()));
 	}
@@ -56,7 +56,7 @@ class listener_test extends \phpbb_test_case
 	{
 		$this->set_listener();
 
-		$this->template->expects($this->once())
+		$this->template->expects(static::once())
 			->method('assign_var')
 			->with('S_BROWSEHAPPY', true);
 
