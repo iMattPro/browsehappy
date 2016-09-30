@@ -4,7 +4,7 @@
  * Browse Happy
  *
  * @copyright (c) 2014 Matt Friedman
- * @license       GNU General Public License, version 2 (GPL-2.0)
+ * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
 
