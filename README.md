@@ -4,7 +4,7 @@
 
 > It's time to say goodbye to Internet Explorer. 
 
-[![Build Status](https://travis-ci.org/VSEphpbb/browsehappy.png)](https://travis-ci.org/VSEphpbb/browsehappy)
+[![Build Status](https://travis-ci.org/VSEphpbb/browsehappy.svg)](https://travis-ci.org/VSEphpbb/browsehappy)
 [![Latest Stable Version](https://poser.pugx.org/vse/browsehappy/v/stable)](https://www.phpbb.com/customise/db/extension/browse_happy/)
 
 ---
