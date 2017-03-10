@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "Displays an Outdated Browser Banner on your phpBB forum's index page, visible only to Internet Explorer 6/7/8/9 users, to encourage them to upgrade to a modern browser.",
 	"homepage": "https://github.com/VSEphpbb/browsehappy",
-	"version": "2.0.1-dev",
+	"version": "2.0.1",
 	"keywords": ["phpbb", "extension", "browsehappy", "internet", "explorer", "modern", "browser"],
 	"license": "GPL-2.0",
 	"authors": [
@@ -20,7 +20,7 @@
 	"extra": {
 		"display-name": "Browse Happy",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.1.2"
+			"phpbb/phpbb": ">=3.1.2,<3.4"
 		},
 		"version-check": {
 			"host": "www.phpbb.com",
