@@ -1,13 +1,13 @@
 {% if S_BROWSEHAPPY %}
 	<!--[if lte IE 9]>
-	<div id="browsehappy">
-		<div id="browsehappy_inner">
-			<div id="browsehappy_warning" title="{{ lang('BROWSEHAPPY_WARNING') }}"></div>
-			<div id="browsehappy_text">
+	<div class="bh_wrapper">
+		<div class="bh_content">
+			<div class="bh_warning" title="{{ lang('BROWSEHAPPY_WARNING') }}"></div>
+			<div class="bh_text">
 				<p><strong>{{ lang('BROWSEHAPPY_TITLE') }}</strong></p>
 				<p>{{ lang('BROWSEHAPPY_MESSAGE') }}</p>
 			</div>
-			<a id="browsehappy_icons" href="http://browsehappy.com/" title="{{ lang('BROWSEHAPPY_UPGRADE') }}">{{ lang('BROWSEHAPPY_UPGRADE') }}</a>
+			<a class="bh_icons" href="http://browsehappy.com/" title="{{ lang('BROWSEHAPPY_UPGRADE') }}">{{ lang('BROWSEHAPPY_UPGRADE') }}</a>
 		</div>
 	</div>
 	<![endif]-->

@@ -1,56 +1,56 @@
-#browsehappy {
-	border: 1px solid #F7941D;
-	background: #FEEFDA;
+.bh_wrapper {
 	text-align: center;
-	clear: both;
-	height: 75px;
+	background: #feefda;
+	border: 1px solid #f7941d;
 	position: relative;
+	clear: both;
 	overflow: hidden;
+	height: 75px;
 	margin: 8px 0;
 }
 
-#browsehappy_inner {
+.bh_content {
+	text-align: left;
+	color: #000000;
+	overflow: hidden;
 	width: 735px;
 	margin: 0 auto;
-	text-align: left;
 	padding: 0;
-	overflow: hidden;
-	color: black;
 }
 
-#browsehappy_warning {
+.bh_warning {
+	background: url('./images/browsehappy-warning.jpg') 0 0 no-repeat;
+	display: block;
+	float: left;
 	width: 53px;
 	height: 73px;
-	float: left;
 	padding-right: 22px;
-	display: block;
-	background: url("./images/browsehappy-warning.jpg") 0 0 no-repeat;
 }
 
-#browsehappy_text {
-	width: 300px;
-	float: left;
+.bh_text {
 	font-family: Arial, sans-serif;
+	float: left;
+	width: 300px;
 	margin-top: 5px;
 }
 
-#browsehappy_text p {
+.bh_text p {
 	font-size: 12px;
-	margin: 5px 0 0 0;
+	margin: 5px 0 0;
 }
 
-#browsehappy_text p strong {
+.bh_text p strong {
 	font-size: 14px;
 	font-weight: bold;
 }
 
-#browsehappy_icons {
-	width: 353px;
-	height: 73px;
-	float: left;
-	border: 0;
-	display: block;
-	background: url("./images/browsehappy-browsers.jpg") 0 0 no-repeat;
+.bh_icons {
 	font-size: 0;
 	text-indent: -9999px;
+	background: url('./images/browsehappy-browsers.jpg') 0 0 no-repeat;
+	border: 0;
+	display: block;
+	float: left;
+	width: 353px;
+	height: 73px;
 }
