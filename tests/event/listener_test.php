@@ -25,13 +25,11 @@ class listener_test extends \phpbb_test_case
 	{
 		parent::setUp();
 
-		global $phpbb_root_path, $phpEx;
-
 		// Load/Mock classes required by the event listener class
-		$this->user = $this->getMock('\phpbb\user', array(), array(
-			new \phpbb\language\language(new \phpbb\language\language_file_loader($phpbb_root_path, $phpEx)),
-			'\phpbb\datetime'
-		));
+		$this->user = $this->getMockBuilder('\phpbb\user')
+			->disableOriginalConstructor()
+			->getMock();
+
 		$this->template = $this->getMockBuilder('\phpbb\template\template')
 			->getMock();
 	}
