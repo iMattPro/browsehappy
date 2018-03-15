@@ -5,7 +5,7 @@
 	"homepage": "https://github.com/VSEphpbb/browsehappy",
 	"version": "2.0.1",
 	"keywords": ["phpbb", "extension", "browsehappy", "internet", "explorer", "modern", "browser"],
-	"license": "GPL-2.0",
+	"license": "GPL-2.0-only",
 	"authors": [
 		{
 			"name": "Matt Friedman (VSE)",
