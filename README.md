@@ -1,10 +1,10 @@
 # Browse Happy - A phpBB extension
 
-<img align="right" height="256" width="256" src="http://vsephpbb.github.io/logo/browsehappy-icon-lg.png" alt="Browse Happy">
+<img align="right" height="256" width="256" src="http://imattpro.github.io/logo/browsehappy-icon-lg.png" alt="Browse Happy">
 
 > It's time to say goodbye to Internet Explorer. 
 
-[![Build Status](https://travis-ci.org/VSEphpbb/browsehappy.svg)](https://travis-ci.org/VSEphpbb/browsehappy)
+[![Build Status](https://travis-ci.org/iMattPro/browsehappy.svg)](https://travis-ci.org/iMattPro/browsehappy)
 [![Latest Stable Version](https://poser.pugx.org/vse/browsehappy/v/stable)](https://www.phpbb.com/customise/db/extension/browse_happy/)
 
 ---
